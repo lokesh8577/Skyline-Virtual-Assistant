@@ -10,7 +10,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-# apikey = "b70554742a0a4dd59b5692f948e80c4a"
+
 
 def speak_old(text):
     engine.say(text)
